@@ -1,10 +1,7 @@
 #include<stdio.h>
 /**
- *main entry
- * with proper grammar, but the outcome
- *  is a piece of art,
- *  followed by a new line.
- *  return : Always 0
+ *main - Entry 
+ *Return: Always 0
  */
 int main(void)
 {
