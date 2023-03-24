@@ -1,6 +1,11 @@
 #ifndef MAIN_H
 #define MAIN_H
 
+/*
+ * File - main.h
+ * Author: mobilei
+ */
+
 int _putchar(char c);
 int _isupper(int c);
 int _isdigit(int c);
