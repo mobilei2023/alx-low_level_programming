@@ -13,7 +13,7 @@ int i;
 	{
 		if (s1[i] != s2[i])
 		{
-			return (s1[i]);
+			return (s1[i] - s2[i]);
 		}
 		i++;
 	}
