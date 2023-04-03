@@ -1,23 +1,29 @@
 #include "main.h"
 /**
- * _strspn -  length of a prefix substring.
+ * _strspn -entry point
  * @s: input
  * @accept: input
  * Return: Always 0
  */
 unsigned int _strspn(char *s, char *accept)
 {
-int k;
+	unsigned int n = 0;
+	int r;
+
 	while (*s)
 	{
-		for (k = 0; accept[k]; k++)
+		for (r = 0; accept[r]; r++;)
 		{
-			if (*s == accept[k])
-
-				return (s);
-		}
-			s++;
+			if (*s == accept[r])
+			{
+				n++;
+				break;
 			}
-			return (0);
+			else if (accept[r + 1] == '\0')
+				return (n);
+		}
+		s++;
+	}
+	return (n);
 }
 
