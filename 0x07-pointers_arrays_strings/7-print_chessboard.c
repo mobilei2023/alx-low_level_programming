@@ -12,5 +12,5 @@ int i, n;
 	for (n = 0; n < 8; n++)
 		_putchar(a[i][n]);
 	}
-	_putchar('\0');
+	_putchar('\n');
 }
