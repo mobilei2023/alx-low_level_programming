@@ -3,14 +3,15 @@
 #include <stdarg.h>
 /**
  * print_numbers - function that prints numbers
- * @separator -  the string to be printed between numbers
+ * @separator: -  the string to be printed between numbers
  * @n: the number of integers passed to the function
- * @ ...: a variable number of numbers to be printed
+ * @...: a variable number of numbers to be printed
  */
 void print_numbers(const char *separator, const unsigned int n, ...)
 {
 	va_list nums;
 	unsigned int index;
+	
 	va_start(nums, n);
 	for (index = 0; index < n; index++)
 {
